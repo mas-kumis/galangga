@@ -3,9 +3,9 @@ Platform Pemesanan Tour & Eksplorasi Destinasi Wisata :
 Galangga adalah website travel modern yang memudahkan pengguna untuk menjelajahi berbagai paket wisata dan langsung melakukan pemesanan secara online. Dibangun dengan antarmuka yang bersih dan fungsional, Galangga juga dilengkapi dengan panel admin untuk pengelolaan data secara efisien.
 
 #### ✨ Fitur Utama
-🔎 Lihat & Pesan Paket Tour : Temukan berbagai pilihan tour menarik dari berbagai daerah.
-🧑‍💼 Dashboard Admin : Akses khusus untuk mengelola data tour, testimoni, dan kontak.
-📩 Formulir Kontak & Testimoni: Pengunjung dapat memberikan masukan atau bertanya langsung melalui form yang tersedia.
+- 🔎 Lihat & Pesan Paket Tour : Temukan berbagai pilihan tour menarik dari berbagai daerah.
+- 💼 Dashboard Admin : Akses khusus untuk mengelola data tour, testimoni, dan kontak.
+- 📩 Formulir Kontak & Testimoni: Pengunjung dapat memberikan masukan atau bertanya langsung melalui form yang tersedia.
 
 #### 🛠️ Teknologi
 - Next.js — Framework React modern
