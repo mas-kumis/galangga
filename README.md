@@ -1,20 +1,38 @@
 ## Galangga Web Travel
-Website Pemesanan Paket Tour dan Informasi Destinasi
+Platform Pemesanan Tour & Eksplorasi Destinasi Wisata : 
+Galangga adalah website travel modern yang memudahkan pengguna untuk menjelajahi berbagai paket wisata dan langsung melakukan pemesanan secara online. Dibangun dengan antarmuka yang bersih dan fungsional, Galangga juga dilengkapi dengan panel admin untuk pengelolaan data secara efisien.
 
-#### Fitur
-- Lihat dan Pesan Paket Tour
-- Halaman Admin untuk Kelola Tour
-- Form Kontak dan Testimoni
+#### ✨ Fitur Utama
+##### 🔎 Lihat & Pesan Paket Tour
+Temukan berbagai pilihan tour menarik dari berbagai daerah.
 
-#### Teknologi
-<img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" />
+##### 🧑‍💼 Dashboard Admin
+Akses khusus untuk mengelola data tour, testimoni, dan kontak.
 
-#### Instalasi
- - Clone Repo : git clone https://github.com/mas-kumis/galangga.git
- - Install Dependencies
- - Jalankan Dev Server
+##### 📩 Formulir Kontak & Testimoni
+Pengunjung dapat memberikan masukan atau bertanya langsung melalui form yang tersedia.
 
- Jika ada pertanyaan kamu bebas menghubungi saya lewat akun yang ada di profile. Semoga terbantu
+#### 🛠️ Teknologi
+- Next.js — Framework React modern
+- Tailwind CSS — Styling cepat dan responsif
+- Supabase — Backend & database real-time
+- ShadCN UI — Komponen UI yang cantik dan reusable
+
+#### 🚀 Instalasi
+````
+# 1. Clone repository ini
+git clone https://github.com/mas-kumis/galangga.git
+
+# 2. Masuk ke folder project
+cd galangga
+
+# 3. Install dependencies
+npm install
+
+# 4. Jalankan development server
+npm run dev
+````
+
+#### 📬 Butuh Bantuan?
+Jika ada pertanyaan, saran, atau kolaborasi, silakan hubungi saya melalui profil GitHub.
+Terima kasih telah mengunjungi proyek ini! 🙌
