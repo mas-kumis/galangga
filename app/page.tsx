@@ -5,6 +5,7 @@ import PopularSection from "@/components/section/Popular";
 export default function Home() {
   return (
     <>
+    {/* Coment of Slider */}
       <ImageSlider />
       <PopularSection />
       <Dream />
