@@ -3,6 +3,7 @@ import Dream from "@/components/section/Dream";
 import PopularSection from "@/components/section/Popular";
 import PopularDestinations from "@/components/section/PopularDestination";
 import TourSection from "@/components/section/TourSection";
+import { Footer } from "../components/layout/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <TourSection />
       <Dream />
       <PopularDestinations />
+      <Footer />
     </>
   );
 }
