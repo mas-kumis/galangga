@@ -24,60 +24,49 @@ interface FooterProps {
 
 const Footer = ({
   logo = {
-    src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
-    alt: "blocks for shadcn/ui",
-    title: "Shadcnblocks.com",
-    url: "https://www.shadcnblocks.com",
+    src: "/logo.png",
+    alt: "Galangga Tourex",
+    title: "Galangga",
+    url: "https://www.galangga.com",
   },
-  tagline = "Components made easy.",
+  tagline = "Pharetra maecenas felis vestibulum convallis mollis nullam congue sit.d rivers of Finland Quebec.",
   menuItems = [
     {
-      title: "Product",
+      title: "Quick Links",
       links: [
-        { text: "Overview", url: "#" },
-        { text: "Pricing", url: "#" },
-        { text: "Marketplace", url: "#" },
-        { text: "Features", url: "#" },
-        { text: "Integrations", url: "#" },
-        { text: "Pricing", url: "#" },
+        { text: "Home", url: "#" },
+        { text: "About Us", url: "#" },
+        { text: "Services", url: "#" },
+        { text: "Tour Guide", url: "#" },
+        { text: "Contact Us ", url: "#" },
       ],
     },
     {
-      title: "Company",
+      title: "Information",
       links: [
         { text: "About", url: "#" },
         { text: "Team", url: "#" },
-        { text: "Blog", url: "#" },
-        { text: "Careers", url: "#" },
-        { text: "Contact", url: "#" },
-        { text: "Privacy", url: "#" },
       ],
     },
     {
-      title: "Resources",
+      title: "Utility Pages",
       links: [
-        { text: "Help", url: "#" },
-        { text: "Sales", url: "#" },
-        { text: "Advertise", url: "#" },
-      ],
-    },
-    {
-      title: "Social",
-      links: [
-        { text: "Twitter", url: "#" },
-        { text: "Instagram", url: "#" },
-        { text: "LinkedIn", url: "#" },
+        { text: "Style Guide", url: "#" },
+        { text: "Password Protected", url: "#" },
+        { text: "404 Error", url: "#" },
+        { text: "Changelog", url: "#" },
+        { text: "License", url: "#" },
       ],
     },
   ],
-  copyright = "© 2024 Shadcnblocks.com. All rights reserved.",
+  copyright = "Copyright © 2025 Gavana Tour. All rights reserved. Developed with ❤️ by Bung Wil.",
   bottomLinks = [
     { text: "Terms and Conditions", url: "#" },
     { text: "Privacy Policy", url: "#" },
   ],
 }: FooterProps) => {
   return (
-    <section className="pt-32 pb-8 px-8 md:px-12 lg:px-16">
+    <section className="pt-32 pb-8 px-8 md:px-12 lg:px-32 bg-[#0f0520]">
       <div className="">
         <footer>
           <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
@@ -91,18 +80,19 @@ const Footer = ({
                     className="h-10"
                   />
                 </a>
-                <p className="text-xl font-semibold">{logo.title}</p>
               </div>
-              <p className="mt-4 font-bold">{tagline}</p>
+              <p className="mt-4 text-white text-sm">{tagline}</p>
             </div>
             {menuItems.map((section, sectionIdx) => (
               <div key={sectionIdx}>
-                <h3 className="mb-4 font-bold">{section.title}</h3>
-                <ul className="space-y-4 text-muted-foreground">
+                <h3 className="mb-4 font-bold text-white text-lg">
+                  {section.title}
+                </h3>
+                <ul className="space-y-3 text-white">
                   {section.links.map((link, linkIdx) => (
                     <li
                       key={linkIdx}
-                      className="font-medium hover:text-primary"
+                      className="font-medium text-[14px] hover:text-white"
                     >
                       <a href={link.url}>{link.text}</a>
                     </li>
