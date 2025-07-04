@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Navbar } from "./Navbar";
 import { Button } from "../ui/button";
+import RibbonWave from "../ui/ui/RibbonWave";
 
 const images = [
   "/image/background-home-1.jpg",
@@ -104,6 +105,7 @@ const ImageSlider = () => {
             </motion.div>
           </div>
         </motion.div>
+        <RibbonWave />
       </div>
     </div>
   );
