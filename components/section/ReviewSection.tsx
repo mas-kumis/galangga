@@ -8,21 +8,21 @@ const reviews = [
   {
     name: "Floyd Miles",
     role: "CEO, Traveller",
-    image: "/image/avatar-1.jpg", // Ganti dengan image kamu
+    image: "/image/avatar-1.png", // Ganti dengan image kamu
     text: "Morem Ipsum Dolor Siter ey Amet Mean Early Areaeey Consec Taetur Adipisvice Ollwing Ipsum Dolor Consectetur.",
     rating: 4,
   },
   {
     name: "Esther Howard",
     role: "CEO, Traveller",
-    image: "/image/avatar-2.jpg",
+    image: "/image/avatar-2.png",
     text: "Morem Ipsum Dolor Siter ey Amet Mean Early Areaeey Consec Taetur Adipisvice Ollwing Ipsum Dolor Consectetur.",
     rating: 4,
   },
   {
     name: "Floyd Miles",
     role: "CEO, Traveller",
-    image: "/image/avatar-1.jpg",
+    image: "/image/avatar-1.png",
     text: "Morem Ipsum Dolor Siter ey Amet Mean Early Areaeey Consec Taetur Adipisvice Ollwing Ipsum Dolor Consectetur.",
     rating: 5,
   },

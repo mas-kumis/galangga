@@ -6,6 +6,7 @@ import TourSection from "@/components/section/TourSection";
 import Footer from "@/components/layout/Footer";
 import BlogSection from "@/components/section/BlogSection";
 import ReviewSection from "@/components/section/ReviewSection";
+import CallToAction from "@/components/section/CallToAction";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TourSection />
       <Dream />
       <PopularDestinations />
+      <CallToAction />
       <ReviewSection />
       <BlogSection />
       <Footer />

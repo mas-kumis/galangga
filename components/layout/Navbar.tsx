@@ -48,8 +48,8 @@ const Navbar = ({
   },
   menu = [
     { title: "Home", url: "#" },
-    { title: "Features", url: "#" },
-    { title: "Pages", url: "#" },
+    { title: "About", url: "/about" },
+    { title: "Tour", url: "/tour" },
     { title: "Blog", url: "#" },
     { title: "Contact", url: "#" },
   ],
